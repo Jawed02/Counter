@@ -1,0 +1,95 @@
+body {
+background-color:black;
+color:black;
+font-family: 'Iceland', cursive;
+}
+#number {
+    font-size:80px;
+
+}
+.number {
+    font-family: 'Iceland', cursive;
+    margin-top:50px;
+    text-align:center;
+    font-size:40px;
+    
+}
+.btn {
+    margin-top:80px;
+    text-align:center;
+    margin-bottom:40px;
+    display:inline-block;
+}
+
+
+.insert {
+    background-color:white;
+    color:black;
+    border-radius:7px;
+    padding:12px 20px;  
+    text-align:center;
+}
+
+.delete {
+    background-color:white;
+    color:black;
+    border-radius:10px;
+    padding:12px 20px;
+    text-align:center ;
+}
+.reset {
+    background-color:white;
+    color:black;
+    border-radius:10px;
+    padding:12px 20px;
+    text-align:center;
+}
+.header {
+    text-align:left;
+    height:500px;
+    background-color:black;
+    color:white;
+}
+
+.container {
+    border:1px solid white;
+    padding:30px 30px 200px 30px;
+    border-radius:10px;
+    color:black;
+    background-color:white;
+    margin-left:10px;
+    margin-right:10px;
+}
+.button {
+    display:inline-block;
+    margin-left: 5px;
+     
+}
+h1{ 
+letter-spacing:7px;
+}
+
+
+
+ .counter h1 {
+    color: #fff;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin:0px 100px 20px 16px; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3s steps(90, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
