@@ -2,10 +2,10 @@ var start = 0;
 
 function insert(){
 document.getElementById("number").innerHTML = start +=1 ;  
- if(start == 33){
+ if(start == 34){
  alert("Now say الحمدلله");
  }
- if(startt == 66){
+ if(start == 67){
 alert("Now say الله أكبر");
  }
 }
